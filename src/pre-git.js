@@ -267,7 +267,7 @@ function isBuiltInWizardName(name) {
 function loadWizard(name) {
   la(check.unemptyString(name), 'missing commit wizard name', name);
   const moduleNames = {
-    simple: 'simple-commit-message',
+    simple: '@formhero/simple-commit-message-fork',
     conventional: 'conventional-commit-message',
     'cz-conventional-changelog': 'conventional-commit-message'
   };

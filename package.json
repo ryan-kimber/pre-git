@@ -1,7 +1,7 @@
 {
-  "name": "pre-git",
+  "name": "@formhero/pre-git-fork",
   "description": "Automatically install pre-commit / pre-git hooks for your npm modules.",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.1",
   "author": "Arnout Kazemier <opensource@observe.it>",
   "bin": {
     "_pre-git-helpers": "bin/_pre-git-helpers",
@@ -13,7 +13,7 @@
     "pre-push": "bin/pre-push"
   },
   "bugs": {
-    "url": "https://github.com/bahmutov/pre-git/issues"
+    "url": "https://github.com/ryan-kimber/pre-git/issues"
   },
   "config": {
     "pre-git": {
@@ -36,22 +36,23 @@
   "contributors": [
     "Arnout Kazemier <opensource@observe.it>",
     "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
-    "Tauren Mills http://tauren.com"
+    "Tauren Mills http://tauren.com",
+    "Ryan Kimber <ryan.kimber@formhero.io>"
   ],
   "dependencies": {
+    "@formhero/ggit-fork": "0.0.1",
     "bluebird": "3.0.6",
     "chalk": "1.1.1",
     "check-more-types": "2.3.0",
     "conventional-commit-message": "1.1.0",
     "cz-conventional-changelog": "1.1.5",
     "debug": "2.2.0",
-    "ggit": "1.7.1",
     "inquirer": "0.11.0",
     "lazy-ass": "1.3.0",
     "require-relative": "0.8.7",
     "shelljs": "0.5.3",
-    "simple-commit-message": "2.1.1",
-    "validate-commit-msg": "1.0.0",
+    "@formhero/simple-commit-message-fork": "0.0.1",
+    "@formhero/validate-commit-msg-fork": "0.0.1",
     "word-wrap": "1.1.0"
   },
   "devDependencies": {
@@ -90,7 +91,7 @@
   "main": "src/pre-git.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bahmutov/pre-git.git"
+    "url": "https://github.com/ryan-kimber/pre-git.git"
   },
   "scripts": {
     "build": "grunt",
