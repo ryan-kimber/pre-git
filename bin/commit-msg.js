@@ -2,8 +2,8 @@
 
 'use strict';
 
-const ggit = require('ggit');
-const preGit = require('pre-git');
+const ggit = require('@formhero/ggit-fork');
+const preGit = require('@formhero/pre-git-fork');
 const la = require('lazy-ass');
 const check = require('check-more-types');
 const log = require('debug')('pre-git');

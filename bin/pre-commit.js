@@ -51,7 +51,7 @@ function printNothingToDo() {
   console.log('');
 }
 
-const run = require('pre-git').run;
+const run = require('@formhero/pre-git-fork').run;
 const runTask = run.bind(null, label);
 
 console.log('running pre-commit script');
