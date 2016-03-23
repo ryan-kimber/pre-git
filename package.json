@@ -1,7 +1,7 @@
 {
   "name": "@formhero/pre-git-fork",
   "description": "Automatically install pre-commit / pre-git hooks for your npm modules.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Arnout Kazemier <opensource@observe.it>",
   "bin": {
     "_pre-git-helpers": "bin/_pre-git-helpers",
