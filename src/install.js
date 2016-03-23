@@ -68,7 +68,7 @@ if (result.code === 0) {
 //
 // The location .git and it's hooks
 //
-var git = ggit.getGitFolder();
+var git = ggit.getGitFolder(root);
 var hooks = path.resolve(git, 'hooks');
 
 //
