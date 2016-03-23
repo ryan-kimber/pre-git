@@ -40,7 +40,7 @@
     "Ryan Kimber <ryan.kimber@formhero.io>"
   ],
   "dependencies": {
-    "@formhero/ggit-fork": "0.0.1",
+    "@formhero/ggit-fork": "0.0.2",
     "bluebird": "3.0.6",
     "chalk": "1.1.1",
     "check-more-types": "2.3.0",
