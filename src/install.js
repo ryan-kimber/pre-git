@@ -8,6 +8,7 @@ var join = path.join;
 var fs = require('fs');
 var read = fs.readFileSync;
 var write = fs.writeFileSync;
+var ggit =  require('@formhero/ggit-fork');
 
 //
 // Compatiblity with older node.js.
@@ -67,7 +68,7 @@ if (result.code === 0) {
 //
 // The location .git and it's hooks
 //
-var git = path.resolve(root, '.git');
+var git = ggit.getGitFolder();
 var hooks = path.resolve(git, 'hooks');
 
 //
